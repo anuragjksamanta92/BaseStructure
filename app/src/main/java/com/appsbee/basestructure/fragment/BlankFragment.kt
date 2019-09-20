@@ -1,14 +1,16 @@
-package com.appsbee.basestructure
+package com.appsbee.basestructure.fragment
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProviders
+import com.appsbee.basestructure.BlankViewModel
+import com.appsbee.basestructure.R
+import com.appsbee.basestructure.base.BaseFragment
 
 
-class BlankFragment : Fragment() {
+class BlankFragment : BaseFragment() {
 
     companion object {
         fun newInstance() = BlankFragment()

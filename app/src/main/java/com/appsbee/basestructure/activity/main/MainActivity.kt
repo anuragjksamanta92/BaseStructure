@@ -1,6 +1,8 @@
-package com.appsbee.basestructure
+package com.appsbee.basestructure.activity.main
 
 import android.os.Bundle
+import com.appsbee.basestructure.base.BaseActivity
+import com.appsbee.basestructure.R
 
 class MainActivity : BaseActivity() {
 
